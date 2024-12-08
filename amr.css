@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+body{
+    background: #eee;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.container{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+}
+.container .image-logo{
+    margin: 3px auto;
+    position: relative;
+}
+.container img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 10;
+    margin: 4px auto;
+}
+.container #check{
+    background: rgb(26, 26, 207);
+    width: fit-content;
+    height: auto;
+    border-radius: 50%;
+    border: 2px dotted;
+    object-fit: cover;
+    position: absolute;
+    left: 46%;
+    top: 59%;
+}
+
+.container h1{
+    width: 200px;
+    height: auto;
+    margin: 4px auto;
+    font-size: 28px;
+    font-weight: bold;
+}
+.container .paragraf{
+    margin: 4px auto;
+    width: fit-content;
+    height: auto;
+    padding: 4px;
+    font-size: 18px;
+}
+.container .social-media{
+    background: transparent;
+    width: fit-content;
+    height: auto;
+    padding: 7px;
+    text-align: center;
+    margin: 4px auto;
+}
+.container .social-media a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+.container .social-media a i{
+    background: #fff;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+
+@media screen and (max-width:1200px) {
+    .container #check{
+        background: rgb(26, 26, 207);
+        width: fit-content;
+        height: auto;
+        border-radius: 50%;
+        border: 2px dotted;
+        object-fit: cover;
+        position: absolute;
+        left: 44%;
+        top: 59%;
+    }
+}
+    
+
+@media screen and (max-width:900px) {
+    .container #check{
+        background: #333;
+        width: fit-content;
+        height: auto;
+        border-radius: 50%;
+        border: 2px dotted;
+        object-fit: cover;
+        position: absolute;
+        left: 43%;
+        top: 59%;
+    }
+    
+}
+    
+
+
+@media screen and (max-width:700px) {
+    .container #check{
+        background: #333;
+        width: fit-content;
+        height: auto;
+        border-radius: 50%;
+        border: 2px dotted;
+        object-fit: cover;
+        position: absolute;
+        left: 42%;
+        top: 59%;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    .container #check{
+        background: #333;
+        width: fit-content;
+        height: auto;
+        border-radius: 50%;
+        border: 2px dotted;
+        object-fit: cover;
+        position: absolute;
+        left: 40%;
+        top: 59%;
+    }
+    
+}
+    
+
+@media screen and (max-width:600px) {
+    .container #check{
+        background: #333;
+        width: fit-content;
+        height: auto;
+        border-radius: 50%;
+        border: 2px dotted;
+        object-fit: cover;
+        position: absolute;
+        left: 40%;
+        top: 59%;
+    }
+    
+}
+    
